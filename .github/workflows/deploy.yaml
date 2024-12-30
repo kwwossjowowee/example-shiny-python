@@ -24,5 +24,5 @@ jobs:
           service-ports: "8000:http"
           service-routes: "/:8000"
           git-builder: buildpack
-          git-run-command: "shiny run --host 0.0.0.0 --port 8000 app.py"
+          git-run-command: "pip install jupyter && jupyter notebook --ip=0.0.0.0 --port=8000 --allow-root"
           skip-cache: true
