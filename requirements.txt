@@ -1,6 +1,6 @@
 shiny 
 shinywidgets
-ipyleaflet
+jupyter
 geopy
 faicons
 requests
